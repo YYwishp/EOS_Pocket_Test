@@ -118,7 +118,7 @@ eos_pocket_test/BuyOrSaleRamActivity.java
 					}
 				}).pushAction("eosio","delegatebw",new Gson().toJson(stakeResourceBean),account_stake);
 
-				//============================赎回CPU，NET=======================================
+    //============================赎回CPU，NET=======================================
 				String account_unstake = (String) SPUtils.get("account", "null");
 				UnDelegateBean unDelegateBean = new UnDelegateBean();
 
