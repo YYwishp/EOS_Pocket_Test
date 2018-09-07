@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lifemenu.eos_pocket_test.ImportAccountActivity">
+
+    <EditText
+        android:id="@+id/tv_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="账户名"
+        android:text="useraaaaaaab"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tv_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner private key"
+        android:text="5JUNYmkJ5wVmtVY8x9A1KKzYe9UWLZ4Fq1hzGZxfwfzJB8jkw6u"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tv_active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Active private key"
+        android:text="5JUNYmkJ5wVmtVY8x9A1KKzYe9UWLZ4Fq1hzGZxfwfzJB8jkw6u"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="import_Account"
+        android:text="导入" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f0f" />
+
+    <EditText
+        android:id="@+id/ed_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="账户名" />
+
+    <EditText
+        android:id="@+id/ed_mnemonic_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|start"
+        android:hint="12短语"
+
+        android:minHeight="100dp"
+        android:text="age jazz plunge quantum envelope crime dial foster lunch amazing athlete diet" />
+
+    <Button
+        android:onClick="mnemonicImport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短语导入" />
+</LinearLayout>
